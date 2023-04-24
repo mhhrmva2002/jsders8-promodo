@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white !important;
+}
+a{
+    padding: 10px;
+    text-decoration: none !important;
+   
+}
+a:hover{
+    background-color: #A54E4B;
+   
+}
+nav{
+    width: 60%;
+    height: 60px;
+    margin: 10px 20%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1) ;
+}
+nav ul li{
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 7px;
+  background-color: rgba(240, 248, 255, 0.362) !important;
+}
+body{
+    background-color: #BB4949 !important;
+}
+#pomodoro {
+    margin: 50px 28%;
+    border-radius: 7px;
+    width:45%;
+    height: 250px;
+    background-color: rgba(240, 248, 255, 0.362) !important;
+}
+#pomodoro li{
+    margin-left: 60px;
+margin-top: 20px;
+}
+.saat{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saat h1 {  
+    font-size: 100px !important;
+}
+#pomodoro .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.button button{
+    color:#BB4949 !important ;
+    padding: 10px 30px !important;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+.dates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 31%;
+    border-radius: 7px;
+    width: 39%;
+    height: 100px;
+    background-color: rgba(240, 248, 255, 0.362) !important;
+}

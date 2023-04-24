@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white !important;
+    /* color: white !important; */
 }
 a{
+    color: white !important;
     padding: 10px;
     text-decoration: none !important;
    
@@ -68,9 +69,25 @@ margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 31%;
+    margin: 50px 28%;
     border-radius: 7px;
-    width: 39%;
-    height: 100px;
+    width: 45%;
+    height: 70px;
     background-color: rgba(240, 248, 255, 0.362) !important;
+}
+
+.toDos{
+    display: flex;
+    justify-content: center;
+    margin: 50px 31% !important; 
+    border-radius: 7px;
+    width:39% !important;
+    height: fit-content;
+    background-color: rgba(240, 248, 255, 0.362) !important; 
+}
+.form{
+    margin-top: 20px;
+}
+li{
+    color: white !important;
 }
